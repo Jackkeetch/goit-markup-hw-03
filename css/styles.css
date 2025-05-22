@@ -37,7 +37,7 @@ ul {
   justify-content: space-between;
   align-items: center;
   max-width: 1158px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 .container {
   width: 1158px;
@@ -187,13 +187,12 @@ ul {
 }
 
 .main-bottom__title {
-  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin: 0;
+  margin-bottom: 8px;
 }
 .main-bottom__text {
   font-size: 16px;
