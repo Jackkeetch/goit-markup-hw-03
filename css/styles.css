@@ -4,6 +4,15 @@ body {
   color: #434455;
   background-color: #fff;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
 /* section {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -29,10 +38,11 @@ ul {
   border-bottom: 1px solid #e7e9fc;
 }
 .header .container {
-  width: 1168px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 1168px;
+  margin: 0 auto;
 }
 .nav {
   display: flex;
@@ -143,11 +153,16 @@ ul {
 /* =========== /HERO-TOP ========= */
 
 /* =========== HERO-BOTTOM ========= */
-h2 {
+/* h2 {
   font-size: 36px;
   font-weight: 700;
   color: #2e2f43;
+} */
+
+.main-bottom {
+  padding: 120px 0;
 }
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -164,14 +179,15 @@ h2 {
 .main-bottom__list {
   display: flex;
   padding-left: 0;
-  column-gap: 24px;
+  gap: 24px;
+  margin: 0;
 }
 .main-bottom__item {
-  width: 264px;
-  height: 104px;
+  width: calc((100% - 72px) / 4);
 }
 
 .main-bottom__title {
+  padding-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -184,6 +200,7 @@ h2 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  margin: 0;
 }
 
 /* =========== /HERO-BOTTOM ========= */
@@ -191,6 +208,7 @@ h2 {
 /* =========== TEAM ========= */
 .team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .team-title {
@@ -205,7 +223,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  column-gap: 24px;
+  gap: 24px;
   padding-left: 0;
 }
 .team-item {
@@ -218,13 +236,17 @@ h2 {
   height: 380px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
+.team-item__wrapper {
+  padding: 32px 0;
+}
 .team-item__title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
   text-align: center;
+  margin-bottom: 8px;
+  color: #2e2f42;
 }
 .team-item__text {
   font-size: 16px;
