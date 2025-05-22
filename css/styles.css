@@ -32,19 +32,16 @@ ul {
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
-.header-wrapper{
+.header-wrapper {
   display: flex;
 }
-.header-wrapper .container{
+.header-wrapper .container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
 
-
-
-  /* 
-.header .container {
+/* .header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -52,19 +49,20 @@ ul {
   padding: 0 15px;
   margin: 0 auto;
 
-  /* width: 1158px;
+  width: 1158px;
 
-  margin: 0 auto; */
+  margin: 0 auto;
 }
 .header-wrapper {
-  /* display: flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   width: 1158px;
   padding: 0 15px;
-  margin: 0 auto; */
-}
-*/ .nav {
+  margin: 0 auto;
+} */
+
+.nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
