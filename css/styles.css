@@ -28,12 +28,16 @@ ul {
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
-.wrapper {
+.header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 8px;
-  margin-bottom: 8px;
+  max-width: 1158px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  margin: 0 auto;
+  /* margin-top: 8px;
+  margin-bottom: 8px; */
 }
 .nav {
   display: flex;
