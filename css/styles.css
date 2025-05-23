@@ -34,33 +34,14 @@ ul {
 }
 .header-wrapper {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .header-wrapper .container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
-
-/* .header .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
-
-  width: 1158px;
-
-  margin: 0 auto;
-}
-.header-wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
-} */
 
 .nav {
   display: flex;
@@ -141,22 +122,24 @@ ul {
   padding: 0 15px;
   margin: 0 auto;
 }
-.main-top {
+.hero {
   background-color: #2e2f42;
   padding: 188px 0;
 }
 
-.main-top__text {
+.hero-title {
   max-width: 496px;
   font-weight: 700;
   font-size: 56px;
   text-align: center;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  margin-left: auto;
+  margin-bottom: 42px;
+  margin-right: auto;
   color: #ffffff;
-  text-align: center;
 }
-.main-button {
+.hero-button {
   display: block;
   min-width: 169px;
   height: 56px;
@@ -164,24 +147,21 @@ ul {
   background-color: #4d5ae5;
   border-radius: 4px;
   cursor: pointer;
+  margin: 0 auto;
+  color: #ffffff;
 }
-.main-button:hover {
+.hero-button:hover {
   background-color: #404bbf;
 }
-.main-button:focus {
+.hero-button:focus {
   background-color: #404bbf;
 }
 
 /* =========== /HERO-TOP ========= */
 
-/* =========== HERO-BOTTOM ========= */
-/* h2 {
-  font-size: 36px;
-  font-weight: 700;
-  color: #2e2f43;
-} */
+/* =========== BENEFITS ========= */
 
-.main-bottom {
+.benefits {
   padding: 120px 0;
 }
 
@@ -198,17 +178,17 @@ ul {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.main-bottom__list {
+.benefits-list {
   display: flex;
   padding-left: 0;
   gap: 24px;
   margin: 0;
 }
-.main-bottom__item {
+.benefits-item {
   width: calc((100% - 72px) / 4);
 }
 
-.main-bottom__title {
+.benefits-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -216,7 +196,7 @@ ul {
   color: #2e2f42;
   margin-bottom: 8px;
 }
-.main-bottom__text {
+.benefits-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -224,7 +204,7 @@ ul {
   margin: 0;
 }
 
-/* =========== /HERO-BOTTOM ========= */
+/* =========== /BENEFITS ========= */
 
 /* =========== TEAM ========= */
 .team {
@@ -233,6 +213,7 @@ ul {
 }
 
 .team-title {
+  font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
@@ -245,6 +226,7 @@ ul {
   justify-content: space-between;
   align-items: center;
   gap: 24px;
+  margin: 0;
   padding-left: 0;
 }
 .team-item {
@@ -257,8 +239,9 @@ ul {
   height: 380px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
-.team-item__wrapper {
-  padding: 32px 0;
+
+.team-item__img {
+  margin-bottom: 32px;
 }
 .team-item__title {
   font-weight: 500;
