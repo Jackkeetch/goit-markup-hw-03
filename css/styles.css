@@ -243,6 +243,10 @@ ul {
 .team-item__img {
   margin-bottom: 32px;
 }
+.team-item__wrapper {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
 .team-item__title {
   font-weight: 500;
   font-size: 20px;
